@@ -1,0 +1,265 @@
+/**** Colliers Funeral Video Application ****/
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/****** User Styles ***********/
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+#wrapper{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	display: block;
+}
+#content{
+	position: relative;
+	margin: 0 auto;
+	width: 1020px;
+	height: auto;
+	min-height: 800px;
+}
+.error { color: red; font-weight: bold; }
+.success { color: #429400; font-weight: bold; }
+.login{
+		background-color: #000000;
+}
+.login h1{
+	margin-top: 50px;
+	width: 300px;
+	background-color: #fff767;
+	padding: 5px;
+	border: solid 1px #ffd496;
+	/*font*/
+	color: #000000;
+	font-size: 1.2em;
+	font-style: italic;
+	text-align: center;
+}
+.login p{
+	color: #ffffff;
+	font-weight: 300;
+}
+.login h2{
+	margin-top: 50px;
+	width: 300px;
+	padding: 0px;
+	/*font*/
+	color: #ffffff;
+	font-size: 1.1em;
+	font-style: italic;
+	text-align: center;
+}
+.login fieldset{
+	margin-top: 20px;	
+	width: 300px;
+	border: solid 2px #a4a4a4;
+	padding: 20px;
+	line-height: 1.4em;
+}
+.login legend{
+	font-size: 1.2em;
+	color: #ffffff;
+}
+.login label {
+	padding-top: 10px;
+	font-size: 1.2em;
+	color: #ffffff;
+}
+.login input[type=text]{
+	display: block;
+	font-size: 1.2em;
+	color: #000000;
+}
+.login input[type=password]{
+	display: block;
+	font-size: 1.2em;
+	color: #000000;
+}
+.login input[type=submit]{
+	margin-top: 10px;
+	padding: 5px;
+	color: #515151;
+	font-size: 1.2em;
+	border: 2px solid #515151;
+	background-color: #f1f1f1;
+}
+.login submit{
+	background-color: #f1f1f1;
+}
+.bold{
+	font-weight: bold;
+}
+/*************Player Styles************/
+#logo{
+	position: relative;
+	display: inline;
+	width: 300px;
+	height: 170px;
+}
+#detail{
+	padding-top: 20px;
+	display: inline;
+	float: right;
+}
+#detail p{
+	font-weight: bold;
+	font-size:1.1em;
+	color: #ffffff;
+	line-height: 1.6em;
+	text-align: right;
+}
+#detail a{
+	padding: 5px;
+	background-color: #f1f1f1;
+	color: #000000;
+}
+#playerContainer{
+	padding-left: 180px;
+	padding-bottom: 100px;
+}
+#player{
+	position: relative;
+	margin: 0 auto;
+	border: 2px solid #ffffff;
+}
+#livePlayerContainer{
+	padding-left: 160px;
+	padding-bottom: 100px;
+}
+#livePlayer{
+	position: relative;
+	margin: 0 auto;
+	/*border: 2px solid #ffffff;*/
+}
+#footer{
+
+	position: relative;
+	border-top: 1px #fff solid;
+	padding: 10px;
+	color: #fff;
+}
+#footer a{
+	color: #fff;
+	text-decoration: underline;
+	font-weight: bold;
+}
+/****** Admin Styles *****/
+.admin{
+}
+.admin h1{
+	margin-top: 50px;
+	width: 300px;
+	padding: 5px;
+	/*font*/
+	color: #303030;
+	font-size: 1.4em;
+	font-style: italic;
+	text-align: center;
+}
+.admin ul{
+	background-color: #dadada;
+	padding: 10px;
+}
+.admin li{
+	display: inline;
+	padding: 10px;
+}
+.admin a:link, .admin a:visited{
+	text-decoration: underline;
+	font-weight: bold;
+	color: #1c1c1c;
+}
+.admin a:hover, .admin a:active{
+	text-decoration: none;
+	font-weight: bold;
+	color: #3b3b3b;
+}
+.admin fieldset{
+	margin-top: 20px;
+	width: 300px;
+	border: solid 2px #000000;
+	padding: 20px;
+	line-height: 1.4em;
+}
+.admin legend{
+	font-size: 1.2em;
+	color: #303030;
+}
+.admin p{
+	font-weight: bold;
+	padding: 10px;
+}
+.admin label {
+	padding-top: 10px;
+	font-size: 1.2em;
+	color: #000000;
+}
+.admin input[type=text], .admin option, .admin select{
+	display: block;
+	font-size: 1.2em;
+	color: #000000;
+}
+.admin input[type=password]{
+	display: block;
+	font-size: 1.2em;
+	color: #000000;
+}
+.admin input[type=submit]{
+	margin-top: 10px;
+	padding: 10px;
+	color: #515151;
+	font-size: 1.2em;
+	border: 2px solid #515151;
+	background-color: #f1f1f1;
+}
+.admin submit{
+	background-color: #f1f1f1;
+}
+.admin td{
+	padding: 10px;
+}
